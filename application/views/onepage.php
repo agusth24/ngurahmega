@@ -8,7 +8,7 @@
 
 	<!-- Stylesheets
 	============================================= -->
-	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="<?= base_url() ?>assets/css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="<?= base_url() ?>assets/css/style.css" type="text/css" />
 	<link rel="stylesheet" href="<?= base_url() ?>assets/css/dark.css" type="text/css" />
@@ -213,7 +213,7 @@
 										<img src="<?= base_url() ?>assets/images/portfolio/4/3.jpg" alt="Mac Sunglasses">
 									</a>
 									<div class="portfolio-overlay">
-										<a href="http://vimeo.com/89396394" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+										<a href="https://vimeo.com/89396394" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
 										<a href="portfolio-single-video.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
 									</div>
 								</div>
@@ -281,7 +281,7 @@
 										<img src="<?= base_url() ?>assets/images/portfolio/4/7.jpg" alt="Backpack Contents">
 									</a>
 									<div class="portfolio-overlay">
-										<a href="http://www.youtube.com/watch?v=kuceVNBTJio" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+										<a href="https://www.youtube.com/watch?v=kuceVNBTJio" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
 										<a href="portfolio-single-video.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
 									</div>
 								</div>
@@ -331,7 +331,7 @@
 										<img src="<?= base_url() ?>assets/images/portfolio/4/10.jpg" alt="Study Table">
 									</a>
 									<div class="portfolio-overlay">
-										<a href="http://vimeo.com/91973305" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+										<a href="https://vimeo.com/91973305" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
 										<a href="portfolio-single-video.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
 									</div>
 								</div>
