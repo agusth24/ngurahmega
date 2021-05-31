@@ -9,6 +9,8 @@
 	<!-- Stylesheets
 	============================================= -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Quicksand%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CBaskervville%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPinyon+Script%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CLibre+Baskerville%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMerriweather%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=5.7.2" rel="stylesheet" type="text/css" />
+
 	<link rel="stylesheet" href="<?= base_url() ?>assets/css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="<?= base_url() ?>assets/css/style.css" type="text/css" />
 	<link rel="stylesheet" href="<?= base_url() ?>assets/css/dark.css" type="text/css" />
@@ -19,9 +21,26 @@
 	<link rel="stylesheet" href="<?= base_url() ?>assets/css/responsive.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
+	<meta name="description" content="The Wedding of Ngurah &amp; Mega" />
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="<?= base_url() ?>" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="The Wedding of Ngurah &amp; Mega (Announcement) | Wedding Invitation" />
+	<meta property="og:description" content="The Wedding of Ngurah &amp; Mega" />
+	<meta property="og:url" content="<?= base_url() ?>" />
+	<meta property="og:site_name" content="The Wedding of Ngurah &amp; Mega (Announcement) | Wedding Invitation" />
+	<meta property="article:modified_time" content="2021-04-17T02:42:03+00:00" />
+	<!-- <meta property="og:image" content="10-1.jpg" />
+	<meta property="og:image:width" content="435" />
+	<meta property="og:image:height" content="573" /> -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Est. reading time">
+	<meta name="twitter:data1" content="4 minutes">
+
 	<!-- Document Title
 	============================================= -->
-	<title>Wedding Welcome | Ngurah Satria & Mega</title>
+	<title>The Wedding of Ngurah &amp; Mega (Announcement) | Wedding Invitation</title>
 
 </head>
 
@@ -43,8 +62,9 @@
 
 					<div class="container clearfix">
 						<div class="slider-caption slider-caption-center">
-							<h2 data-animate="fadeInDown">Wedding</h2>
-							<p data-animate="fadeInUp" data-delay="400">Ngurah & Mega.</p>
+							<h2 data-animate="fadeInDown" style="font-family: 'Baskervville';margin-bottom:10px;font-size:35px;font-weight:400;line-height:1.2em;letter-spacing:7px;">The Wedding Of</h2>
+							<p data-animate="fadeInUp" data-delay="400" style='font-family: "Pinyon Script";font-size:115px;font-weight:400;line-height:1.2em;'>Ngurah & Mega</p>
+							<h2 data-animate="fadeInUp" data-delay="400" style="font-family: 'Libre Baskervville';margin-bottom:10px;font-size:35px;font-weight:400;line-height:1.2em;letter-spacing:7px;">01.05.2021</h2>
 						</div>
 					</div>
 
@@ -53,50 +73,6 @@
 			</div>
 
 		</section>
-
-		<!-- Page Sub Menu
-		============================================= -->
-		<div id="page-menu" class="dots-menu">
-
-			<div id="page-menu-wrap">
-
-				<div class="container clearfix">
-
-					<div class="menu-title">Explore <span>CANVAS</span></div>
-
-					<nav class="one-page-menu no-offset">
-						<ul>
-							<li><a href="#" data-href="#header">
-									<div>Home</div>
-								</a></li>
-							<li><a href="#" data-href="#section-about">
-									<div>About</div>
-								</a></li>
-							<li><a href="#" data-href="#section-work">
-									<div>Work</div>
-								</a></li>
-							<li><a href="#" data-href="#section-services">
-									<div>Services</div>
-								</a></li>
-							<li><a href="#" data-href="#section-video">
-									<div>Video</div>
-								</a></li>
-							<li><a href="#" data-href="#section-testimonials">
-									<div>Testimonials</div>
-								</a></li>
-							<li><a href="#" data-href="#section-contact">
-									<div>Contact</div>
-								</a></li>
-						</ul>
-					</nav>
-
-					<div id="page-submenu-trigger"><i class="icon-reorder"></i></div>
-
-				</div>
-
-			</div>
-
-		</div><!-- #page-menu end -->
 
 		<!-- Content
 		============================================= -->
@@ -112,30 +88,20 @@
 							<span>Everything you need to know about us.</span>
 						</div>
 
-						<div class="col_one_third">
+						<div class="col-md-6">
 
 							<div class="heading-block fancy-title nobottomborder title-bottom-border">
-								<h4>Why choose <span>Us</span>.</h4>
+								<h4>The <span>Meeting</span>.</h4>
 							</div>
 
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
 
 						</div>
 
-						<div class="col_one_third">
+						<div class="col-md-6">
 
 							<div class="heading-block fancy-title nobottomborder title-bottom-border">
-								<h4>Our <span>Mission</span>.</h4>
-							</div>
-
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
-
-						</div>
-
-						<div class="col_one_third col_last">
-
-							<div class="heading-block fancy-title nobottomborder title-bottom-border">
-								<h4>What we <span>Do</span>.</h4>
+								<h4>Our <span>Story</span>.</h4>
 							</div>
 
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
@@ -144,349 +110,46 @@
 
 						<div class="clear"></div>
 
-						<ul class="clients-grid grid-6 nobottommargin clearfix">
-							<li><a href="#"><img src="<?= base_url() ?>assets/images/clients/1.png" alt="Clients"></a></li>
-							<li><a href="#"><img src="<?= base_url() ?>assets/images/clients/2.png" alt="Clients"></a></li>
-							<li><a href="#"><img src="<?= base_url() ?>assets/images/clients/3.png" alt="Clients"></a></li>
-							<li><a href="#"><img src="<?= base_url() ?>assets/images/clients/4.png" alt="Clients"></a></li>
-							<li><a href="#"><img src="<?= base_url() ?>assets/images/clients/5.png" alt="Clients"></a></li>
-							<li><a href="#"><img src="<?= base_url() ?>assets/images/clients/6.png" alt="Clients"></a></li>
-							<li><a href="#"><img src="<?= base_url() ?>assets/images/clients/7.png" alt="Clients"></a></li>
-							<li><a href="#"><img src="<?= base_url() ?>assets/images/clients/8.png" alt="Clients"></a></li>
-							<li><a href="#"><img src="<?= base_url() ?>assets/images/clients/9.png" alt="Clients"></a></li>
-							<li><a href="#"><img src="<?= base_url() ?>assets/images/clients/10.png" alt="Clients"></a></li>
-							<li><a href="#"><img src="<?= base_url() ?>assets/images/clients/11.png" alt="Clients"></a></li>
-							<li><a href="#"><img src="<?= base_url() ?>assets/images/clients/12.png" alt="Clients"></a></li>
-						</ul>
+						<div class="col_full nobottommargin clearfix">
+							<div class="masonry-thumbs col-4" data-lightbox="gallery">
+								<a href="<?= base_url() ?>assets/images/portfolio/full/1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/1.jpg" alt="Gallery Thumb 1"></a>
+								<a href="<?= base_url() ?>assets/images/portfolio/full/2.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/2.jpg" alt="Gallery Thumb 2"></a>
+								<a href="<?= base_url() ?>assets/images/portfolio/full/3.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/3.jpg" alt="Gallery Thumb 3"></a>
+								<a href="<?= base_url() ?>assets/images/portfolio/full/4.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/4.jpg" alt="Gallery Thumb 4"></a>
+							</div>
+						</div>
 
 					</div>
 				</section>
 
-				<section id="section-work" class="page-section section nomargin">
+				<section id="section-testimonials" class="page-section section parallax full-screen nomargin dark" style="background-image: url('<?= base_url() ?>assets/images/about/me-parallax.jpg'); padding: 200px 0;" data-stellar-background-ratio="0.3">
 
-					<div class="heading-block center">
-						<h2>Our Works</h2>
-						<span>Some of the Awesome Projects we've worked on.</span>
-					</div>
-
-					<div class="container clearfix center">
-
-						<!-- Portfolio Items
-						============================================= -->
-						<div id="portfolio" class="portfolio portfolio-nomargin clearfix">
-
-							<article class="portfolio-item pf-media pf-icons">
-								<div class="portfolio-image">
-									<a href="portfolio-single.html">
-										<img src="<?= base_url() ?>assets/images/portfolio/4/1.jpg" alt="Open Imagination">
-									</a>
-									<div class="portfolio-overlay">
-										<a href="<?= base_url() ?>assets/images/portfolio/full/1.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-										<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single.html">Open Imagination</a></h3>
-									<span><a href="#">Media</a>, <a href="#">Icons</a></span>
-								</div>
-							</article>
-
-							<article class="portfolio-item pf-illustrations">
-								<div class="portfolio-image">
-									<a href="portfolio-single.html">
-										<img src="<?= base_url() ?>assets/images/portfolio/4/2.jpg" alt="Locked Steel Gate">
-									</a>
-									<div class="portfolio-overlay">
-										<a href="<?= base_url() ?>assets/images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-										<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single.html">Locked Steel Gate</a></h3>
-									<span><a href="#">Illustrations</a></span>
-								</div>
-							</article>
-
-							<article class="portfolio-item pf-graphics pf-uielements">
-								<div class="portfolio-image">
-									<a href="#">
-										<img src="<?= base_url() ?>assets/images/portfolio/4/3.jpg" alt="Mac Sunglasses">
-									</a>
-									<div class="portfolio-overlay">
-										<a href="https://vimeo.com/89396394" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-										<a href="portfolio-single-video.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-video.html">Mac Sunglasses</a></h3>
-									<span><a href="#">Graphics</a>, <a href="#">UI Elements</a></span>
-								</div>
-							</article>
-
-							<article class="portfolio-item pf-icons pf-illustrations">
-								<div class="portfolio-image">
-									<a href="#">
-										<img src="<?= base_url() ?>assets/images/portfolio/4/4.jpg" alt="Mac Sunglasses">
-									</a>
-									<div class="portfolio-overlay" data-lightbox="gallery">
-										<a href="<?= base_url() ?>assets/images/portfolio/full/4.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-										<a href="<?= base_url() ?>assets/images/portfolio/full/4-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
-										<a href="portfolio-single-gallery.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-gallery.html">Morning Dew</a></h3>
-									<span><a href="#"><a href="#">Icons</a>, <a href="#">Illustrations</a></span>
-								</div>
-							</article>
-
-							<article class="portfolio-item pf-uielements pf-media">
-								<div class="portfolio-image">
-									<a href="portfolio-single.html">
-										<img src="<?= base_url() ?>assets/images/portfolio/4/5.jpg" alt="Console Activity">
-									</a>
-									<div class="portfolio-overlay">
-										<a href="<?= base_url() ?>assets/images/portfolio/full/5.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-										<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single.html">Console Activity</a></h3>
-									<span><a href="#">UI Elements</a>, <a href="#">Media</a></span>
-								</div>
-							</article>
-
-							<article class="portfolio-item pf-graphics pf-illustrations">
-								<div class="portfolio-image">
-									<a href="#">
-										<img src="<?= base_url() ?>assets/images/portfolio/4/6.jpg" alt="Mac Sunglasses">
-									</a>
-									<div class="portfolio-overlay" data-lightbox="gallery">
-										<a href="<?= base_url() ?>assets/images/portfolio/full/6.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-										<a href="<?= base_url() ?>assets/images/portfolio/full/6-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
-										<a href="<?= base_url() ?>assets/images/portfolio/full/6-2.jpg" class="hidden" data-lightbox="gallery-item"></a>
-										<a href="<?= base_url() ?>assets/images/portfolio/full/6-3.jpg" class="hidden" data-lightbox="gallery-item"></a>
-										<a href="portfolio-single-gallery.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-gallery.html">Shake It!</a></h3>
-									<span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
-								</div>
-							</article>
-
-							<article class="portfolio-item pf-uielements pf-icons">
-								<div class="portfolio-image">
-									<a href="portfolio-single-video.html">
-										<img src="<?= base_url() ?>assets/images/portfolio/4/7.jpg" alt="Backpack Contents">
-									</a>
-									<div class="portfolio-overlay">
-										<a href="https://www.youtube.com/watch?v=kuceVNBTJio" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-										<a href="portfolio-single-video.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-video.html">Backpack Contents</a></h3>
-									<span><a href="#">UI Elements</a>, <a href="#">Icons</a></span>
-								</div>
-							</article>
-
-							<article class="portfolio-item pf-graphics">
-								<div class="portfolio-image">
-									<a href="portfolio-single.html">
-										<img src="<?= base_url() ?>assets/images/portfolio/4/8.jpg" alt="Sunset Bulb Glow">
-									</a>
-									<div class="portfolio-overlay">
-										<a href="<?= base_url() ?>assets/images/portfolio/full/8.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-										<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single.html">Sunset Bulb Glow</a></h3>
-									<span><a href="#">Graphics</a></span>
-								</div>
-							</article>
-
-							<article class="portfolio-item pf-illustrations pf-icons">
-								<div class="portfolio-image">
-									<a href="#">
-										<img src="<?= base_url() ?>assets/images/portfolio/4/9.jpg" alt="Mac Sunglasses">
-									</a>
-									<div class="portfolio-overlay" data-lightbox="gallery">
-										<a href="<?= base_url() ?>assets/images/portfolio/full/9.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-										<a href="<?= base_url() ?>assets/images/portfolio/full/9-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
-										<a href="<?= base_url() ?>assets/images/portfolio/full/9-2.jpg" class="hidden" data-lightbox="gallery-item"></a>
-										<a href="portfolio-single-gallery.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single.html">Bridge Side</a></h3>
-									<span><a href="#">Illustrations</a>, <a href="#">Icons</a></span>
-								</div>
-							</article>
-
-							<article class="portfolio-item pf-graphics pf-media pf-uielements">
-								<div class="portfolio-image">
-									<a href="portfolio-single-video.html">
-										<img src="<?= base_url() ?>assets/images/portfolio/4/10.jpg" alt="Study Table">
-									</a>
-									<div class="portfolio-overlay">
-										<a href="https://vimeo.com/91973305" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-										<a href="portfolio-single-video.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-video.html">Study Table</a></h3>
-									<span><a href="#">Graphics</a>, <a href="#">Media</a></span>
-								</div>
-							</article>
-
-							<article class="portfolio-item pf-media pf-icons">
-								<div class="portfolio-image">
-									<a href="portfolio-single.html">
-										<img src="<?= base_url() ?>assets/images/portfolio/4/11.jpg" alt="Workspace Stuff">
-									</a>
-									<div class="portfolio-overlay">
-										<a href="<?= base_url() ?>assets/images/portfolio/full/11.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-										<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single.html">Workspace Stuff</a></h3>
-									<span><a href="#">Media</a>, <a href="#">Icons</a></span>
-								</div>
-							</article>
-
-							<article class="portfolio-item pf-illustrations pf-graphics">
-								<div class="portfolio-image">
-									<a href="#">
-										<img src="<?= base_url() ?>assets/images/portfolio/4/12.jpg" alt="Mac Sunglasses">
-									</a>
-									<div class="portfolio-overlay" data-lightbox="gallery">
-										<a href="<?= base_url() ?>assets/images/portfolio/full/12.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-										<a href="<?= base_url() ?>assets/images/portfolio/full/12-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
-										<a href="portfolio-single-gallery.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-gallery.html">Fixed Aperture</a></h3>
-									<span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
-								</div>
-							</article>
-
-						</div><!-- #portfolio end -->
-
-					</div>
-
-				</section>
-
-				<section id="section-services" class="page-section full-screen section dark nopadding nomargin noborder ohidden" style="background-color: #222;">
 					<div class="vertical-middle">
+
 						<div class="container clearfix">
 
-							<div class="heading-block center bottommargin-lg">
-								<h2>Services.</h2>
-								<span>We provide wide range of Flexible &amp; Useful Services.</span>
-							</div>
 
-							<div class="col_one_third">
-								<div class="feature-box fbox-plain">
-									<div class="fbox-icon">
-										<a href="#"><i class="icon-screen"></i></a>
-									</div>
-									<h3>Responsive Layout</h3>
-									<p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
+							<div class="col_half nobottommargin col_last" style="color:#EBE6D5">
+
+								<div class="heading-block center">
+									<h4 style="color:#EBE6D5;">The Wedding</h4>
+									<span>VIRTUAL HOLY MATRIMONY</span>
 								</div>
+								<p class="testi-content">Hi there, we would like to invite you to our virtual holy matrimony which will be held on :</p>
+								<ul class="iconlist">
+									<li><i class="icon-calendar3"></i> <strong>Date:</strong> 01 June, 2021</li>
+									<li><i class="icon-time"></i> <strong>Timing:</strong> 20:00 - 02:00</li>
+									<li><i class="icon-map-marker2"></i> <strong>Location:</strong> Bali, Indonesia</li>
+									<li><i class="icon-youtube"></i> <strong>Live:</strong> https://you.tube</li>
+								</ul>
+								<p class="testi-content">Please access it through the YouTube link above, we would be grateful to have you witness our once in a lifetime moment.</p>
+
 							</div>
-
-							<div class="col_one_third">
-								<div class="feature-box fbox-plain">
-									<div class="fbox-icon">
-										<a href="#"><i class="icon-eye"></i></a>
-									</div>
-									<h3>Retina Ready Graphics</h3>
-									<p>Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Retina Icons, Fonts &amp; all others graphics are optimized.</p>
-								</div>
-							</div>
-
-							<div class="col_one_third col_last">
-								<div class="feature-box fbox-plain">
-									<div class="fbox-icon">
-										<a href="#"><i class="icon-beaker"></i></a>
-									</div>
-									<h3>Powerful Performance</h3>
-									<p>Canvas includes tons of optimized code that are completely customizable and deliver unmatched fast performance.</p>
-								</div>
-							</div>
-
-							<div class="clear"></div>
-
-							<div class="col_one_third">
-								<div class="feature-box fbox-plain">
-									<div class="fbox-icon">
-										<a href="#"><i class="icon-stack"></i></a>
-									</div>
-									<h3>Premium Sliders Included</h3>
-									<p>Canvas included 20+ custom designed Slider Pages with Premium Sliders like Layer, Revolution, Swiper &amp; others.</p>
-								</div>
-							</div>
-
-							<div class="col_one_third">
-								<div class="feature-box fbox-plain">
-									<div class="fbox-icon">
-										<a href="#"><i class="icon-tint"></i></a>
-									</div>
-									<h3>Unlimited Color Options</h3>
-									<p>Change the color scheme of the Theme in a flash just by changing the 6-digit HEX code in the colors.php file.</p>
-								</div>
-							</div>
-
-							<div class="col_one_third col_last">
-								<div class="feature-box fbox-plain">
-									<div class="fbox-icon">
-										<a href="#"><i class="icon-text-width"></i></a>
-									</div>
-									<h3>CUSTOMIZABLE FONTS</h3>
-									<p>Use any Font you like from Google Web Fonts, Typekit or other Web Fonts. They will blend in perfectly.</p>
-								</div>
-							</div>
-
-							<div class="clear"></div>
-
-							<div class="col_one_third nobottommargin">
-								<div class="feature-box fbox-plain">
-									<div class="fbox-icon">
-										<a href="#"><i class="icon-ok"></i></a>
-									</div>
-									<h3>12+ Header Designs</h3>
-									<p>We have included 12+ Header + Menu Designs for your convenience so that you can match your style.</p>
-								</div>
-							</div>
-
-							<div class="col_one_third nobottommargin">
-								<div class="feature-box fbox-plain">
-									<div class="fbox-icon">
-										<a href="#"><i class="icon-thumbs-up"></i></a>
-									</div>
-									<h3>Awesome Mega menu</h3>
-									<p>Completely Customizable 2 Columns, 3 Columns, 4 Columns &amp; 5 Columns Mega Menus are available with Canvas.</p>
-								</div>
-							</div>
-
-							<div class="col_one_third nobottommargin col_last">
-								<div class="feature-box fbox-plain">
-									<div class="fbox-icon">
-										<a href="#"><i class="icon-magnet"></i></a>
-									</div>
-									<h3>Attractive Sticky Menu</h3>
-									<p>Smooth &amp; Stylish Sticky Menu is what will make your Website differentiate with others.</p>
-								</div>
-							</div>
-
-							<div class="clear"></div>
 
 						</div>
+
 					</div>
+
 				</section>
 
 				<section id="section-video" class="page-section full-screen section dark nopadding nomargin noborder ohidden">
@@ -495,8 +158,8 @@
 						<i class="i-plain i-xlarge icon-diamond divcenter bottommargin"></i>
 
 						<div class="slider-caption slider-caption-center">
-							<h2 data-animate="fadeInUp">Brilliant Service</h2>
-							<p data-animate="fadeInUp" data-delay="200">"Momentum poverty tackling fellows social impact. Expanding community ownership, future affiliate protect civil society. Bloomberg."</p>
+							<h2 data-animate="fadeInUp">GIFTS</h2>
+							<p data-animate="fadeInUp" data-delay="200">"Should you wish to give a wedding gift, we would greatly appreciate a contribution to our wishlist or hóngbāo to BCA: account_bank a/n Marriage"</p>
 						</div>
 					</div>
 					<div class="video-wrap">
@@ -509,61 +172,117 @@
 
 				</section>
 
-				<section id="section-testimonials" class="page-section section parallax full-screen nomargin dark" style="background-image: url('<?= base_url() ?>assets/images/about/me-parallax.jpg'); padding: 200px 0;" data-stellar-background-ratio="0.3">
+				<section id="section-services" class="page-section section dark nopadding nomargin noborder ohidden" style="background-color: #222;">
 
-					<div class="vertical-middle">
+					<div class="container clearfix">
 
-						<div class="container clearfix">
+						<div class="heading-block center bottommargin topmargin">
+							<h2>Watch Live.</h2>
+							<span>Please join us as part of our special day and watch our wedding live here.</span>
+						</div>
 
-							<div class="col_half nobottommargin">&nbsp;</div>
+						<div class="clear"></div>
+						<div id="countdown" class="countdown countdown-large bottommargin"></div>
 
-							<div class="col_half nobottommargin col_last">
+						<div class="clear"></div>
+						<p><iframe width="560" height="315" src="http://www.youtube.com/embed/SZEflIVnhH8" frameborder="0" allowfullscreen></iframe></p>
 
-								<div class="heading-block center">
-									<h4>What Clients say?</h4>
-									<span>Some of our Clients love us &amp; so we do!</span>
-								</div>
+					</div>
+				</section>
 
-								<div class="fslider testimonial testimonial-full nobgcolor noborder noshadow nopadding" data-arrows="false">
-									<div class="flexslider">
-										<div class="slider-wrap">
-											<div class="slide">
-												<div class="testi-content">
-													<p>Similique fugit repellendus expedita excepturi iure perferendis provident quia eaque. Repellendus, vero numquam?</p>
-													<div class="testi-meta">
-														Steve Jobs
-														<span>Apple Inc.</span>
-													</div>
-												</div>
-											</div>
-											<div class="slide">
-												<div class="testi-content">
-													<p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
-													<div class="testi-meta">
-														Collis Ta'eed
-														<span>Envato Inc.</span>
-													</div>
-												</div>
-											</div>
-											<div class="slide">
-												<div class="testi-content">
-													<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
-													<div class="testi-meta">
-														John Doe
-														<span>XYZ Inc.</span>
-													</div>
-												</div>
-											</div>
+				<section id="section-work" class="page-section section nomargin">
+
+					<div class="heading-block center">
+						<h2>Gallery</h2>
+					</div>
+
+					<div class="container clearfix center">
+
+						<div class="col_full nobottommargin clearfix">
+							<div class="masonry-thumbs col-4" data-big="4" data-lightbox="gallery">
+								<a href="<?= base_url() ?>assets/images/portfolio/full/1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/1.jpg" alt="Gallery Thumb 1"></a>
+								<a href="<?= base_url() ?>assets/images/portfolio/full/2.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/2.jpg" alt="Gallery Thumb 2"></a>
+								<a href="<?= base_url() ?>assets/images/portfolio/full/3.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/3.jpg" alt="Gallery Thumb 3"></a>
+								<a href="<?= base_url() ?>assets/images/portfolio/full/4.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/4.jpg" alt="Gallery Thumb 4"></a>
+								<a href="<?= base_url() ?>assets/images/portfolio/full/1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/1.jpg" alt="Gallery Thumb 1"></a>
+								<a href="<?= base_url() ?>assets/images/portfolio/full/2.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/2.jpg" alt="Gallery Thumb 2"></a>
+								<a href="<?= base_url() ?>assets/images/portfolio/full/3.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/3.jpg" alt="Gallery Thumb 3"></a>
+								<a href="<?= base_url() ?>assets/images/portfolio/full/4.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/4.jpg" alt="Gallery Thumb 4"></a>
+								<a href="<?= base_url() ?>assets/images/portfolio/full/4.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/4.jpg" alt="Gallery Thumb 4"></a>
+							</div>
+						</div>
+
+					</div>
+
+				</section>
+
+				<section id="section-about" class="page-section section nobg nomargin">
+					<div class="container clearfix">
+
+						<div class="heading-block bottommargin-lg center">
+							<h2>Wishes.</h2>
+						</div>
+
+						<div id="oc-testi" class="owl-carousel testimonials-carousel carousel-widget" data-margin="20" data-items-xs="1" data-items-sm="2" data-items-lg="3">
+
+							<div class="oc-item">
+								<div class="testimonial">
+									<div class="testi-content">
+										<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
+										<div class="testi-meta">
+											John Doe
 										</div>
 									</div>
 								</div>
+							</div>
 
+							<div class="oc-item">
+								<div class="testimonial">
+									<div class="testi-content">
+										<p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
+										<div class="testi-meta">
+											Collis Ta'eed
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="oc-item">
+								<div class="testimonial">
+									<div class="testi-content">
+										<p>Fugit officia dolor sed harum excepturi ex iusto magnam asperiores molestiae qui natus obcaecati facere sint amet.</p>
+										<div class="testi-meta">
+											Mary Jane
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="oc-item">
+								<div class="testimonial">
+									<div class="testi-content">
+										<p>Similique fugit repellendus expedita excepturi iure perferendis provident quia eaque. Repellendus, vero numquam?</p>
+										<div class="testi-meta">
+											Steve Jobs
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="oc-item">
+								<div class="testimonial">
+									<div class="testi-content">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, perspiciatis illum totam dolore deleniti labore.</p>
+										<div class="testi-meta">
+											Jamie Morrison
+										</div>
+									</div>
+								</div>
 							</div>
 
 						</div>
 
 					</div>
-
 				</section>
 
 				<section id="section-contact" class="page-section full-screen section nopadding nomargin noborder ohidden">
@@ -575,10 +294,10 @@
 							<div id="contact-form-overlay-mini" class="clearfix">
 
 								<div class="fancy-title title-dotted-border">
-									<h3>Send us an Email</h3>
+									<h3>Send your wishes</h3>
 								</div>
 
-								<!-- Contact Form
+								<!-- Wishes Form
 								============================================= -->
 								<div class="contact-widget">
 
@@ -592,24 +311,8 @@
 										</div>
 
 										<div class="col_full">
-											<label for="template-contactform-email">Email <small>*</small></label>
-											<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
-										</div>
-
-										<div class="clear"></div>
-
-										<div class="col_full">
-											<label for="template-contactform-subject">Subject <small>*</small></label>
-											<input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="required sm-form-control" />
-										</div>
-
-										<div class="col_full">
 											<label for="template-contactform-message">Message <small>*</small></label>
 											<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
-										</div>
-
-										<div class="col_full hidden">
-											<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
 										</div>
 
 										<div class="col_full">
@@ -620,7 +323,7 @@
 
 								</div>
 
-							</div><!-- Contact Form Overlay End -->
+							</div><!-- Wishes Form Overlay End -->
 
 						</div>
 					</div>
@@ -746,6 +449,13 @@
 				overviewMapControl: false
 			}
 
+		});
+
+		jQuery(document).ready(function($) {
+			var newDate = new Date(2021, 5, 1);
+			$('#countdown').countdown({
+				until: newDate
+			});
 		});
 	</script>
 	<!-- Google Map End -->
