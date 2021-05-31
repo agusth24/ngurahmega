@@ -43,8 +43,8 @@
 
 					<div class="container clearfix">
 						<div class="slider-caption slider-caption-center">
-							<h2 data-animate="fadeInDown">Welcome to Canvas</h2>
-							<p data-animate="fadeInUp" data-delay="400">Create just what you need for your Perfect Website. Choose from a wide range of Elements &amp; simply put them on our Canvas.</p>
+							<h2 data-animate="fadeInDown">Wedding</h2>
+							<p data-animate="fadeInUp" data-delay="400">Ngurah & Mega.</p>
 						</div>
 					</div>
 
@@ -719,17 +719,17 @@
 	============================================= -->
 	<script type="text/javascript" src="<?= base_url() ?>assets/js/functions.js"></script>
 
-	<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyB512r7gWmwtlHPpYgZg7HkjCmi6Vg0Ots"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB512r7gWmwtlHPpYgZg7HkjCmi6Vg0Ots"></script>
 	<script type="text/javascript" src="<?= base_url() ?>assets/js/jquery.gmap.js"></script>
 
 	<script type="text/javascript">
 		$('#google-map').gMap({
-			address: 'Melbourne, Australia',
+			address: 'Bali, Indonesia',
 			maptype: 'ROADMAP',
-			zoom: 14,
+			zoom: 10,
 			markers: [{
-				address: "Melbourne, Australia",
-				html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Hi, we\'re <span>Envato</span></h4><p class="nobottommargin">Our mission is to help people to <strong>earn</strong> and to <strong>learn</strong> online. We operate <strong>marketplaces</strong> where hundreds of thousands of people buy and sell digital goods every day, and a network of educational blogs where millions learn <strong>creative skills</strong>.</p></div>',
+				address: "Bali, Indonesia",
+				html: 'Hello There!!',
 				icon: {
 					image: "<?= base_url() ?>assets/images/icons/map-icon-red.png",
 					iconsize: [32, 39],
