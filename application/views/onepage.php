@@ -185,7 +185,7 @@
 						<div id="countdown" class="countdown countdown-large bottommargin"></div>
 
 						<div class="clear"></div>
-						<p><iframe width="560" height="315" src="http://www.youtube.com/embed/SZEflIVnhH8" frameborder="0" allowfullscreen></iframe></p>
+						<p><iframe width="560" height="315" src="https://www.youtube.com/embed/SZEflIVnhH8" frameborder="0" allowfullscreen></iframe></p>
 
 					</div>
 				</section>
