@@ -64,7 +64,7 @@
 						<div class="slider-caption slider-caption-center">
 							<h2 data-animate="fadeInDown" style="font-family: 'Baskervville';margin-bottom:10px;font-size:35px;font-weight:400;line-height:1.2em;letter-spacing:7px;">The Wedding Of</h2>
 							<p data-animate="fadeInUp" data-delay="400" style='font-family: "Pinyon Script";font-size:115px;font-weight:400;line-height:1.2em;'>Ngurah & Mega</p>
-							<h2 data-animate="fadeInUp" data-delay="400" style="font-family: 'Libre Baskervville';margin-bottom:10px;font-size:35px;font-weight:400;line-height:1.2em;letter-spacing:7px;">01.05.2021</h2>
+							<h2 data-animate="fadeInUp" data-delay="400" style="font-family: 'Libre Baskervville';margin-bottom:10px;font-size:35px;font-weight:400;line-height:1.2em;letter-spacing:7px;">27.06.2021</h2>
 						</div>
 					</div>
 
@@ -111,11 +111,13 @@
 						<div class="clear"></div>
 
 						<div class="col_full nobottommargin clearfix">
-							<div class="masonry-thumbs col-4" data-lightbox="gallery">
-								<a href="<?= base_url() ?>assets/images/portfolio/full/1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/1.jpg" alt="Gallery Thumb 1"></a>
-								<a href="<?= base_url() ?>assets/images/portfolio/full/2.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/2.jpg" alt="Gallery Thumb 2"></a>
-								<a href="<?= base_url() ?>assets/images/portfolio/full/3.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/3.jpg" alt="Gallery Thumb 3"></a>
-								<a href="<?= base_url() ?>assets/images/portfolio/full/4.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/4.jpg" alt="Gallery Thumb 4"></a>
+							<div class="masonry-thumbs col-6" data-lightbox="gallery">
+								<a href="<?= base_url() ?>assets/images/ngurahmega/1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/1_resize.jpg" alt="Gallery Thumb 1"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/2.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/2_resize.jpg" alt="Gallery Thumb 2"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/3.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/3_resize.jpg" alt="Gallery Thumb 3"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/4.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/4_resize.jpg" alt="Gallery Thumb 4"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/5.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/5_resize.jpg" alt="Gallery Thumb 2"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/6.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/6_resize.jpg" alt="Gallery Thumb 3"></a>
 							</div>
 						</div>
 
@@ -133,16 +135,16 @@
 
 								<div class="heading-block center">
 									<h4 style="color:#EBE6D5;">The Wedding</h4>
-									<span>VIRTUAL HOLY MATRIMONY</span>
+									<span>WEDDING RECEPTION</span>
 								</div>
-								<p class="testi-content">Hi there, we would like to invite you to our virtual holy matrimony which will be held on :</p>
+								<p class="testi-content">Hi there, we would like to invite you to our wedding reception which will be held on :</p>
 								<ul class="iconlist">
-									<li><i class="icon-calendar3"></i> <strong>Date:</strong> 01 June, 2021</li>
-									<li><i class="icon-time"></i> <strong>Timing:</strong> 20:00 - 02:00</li>
+									<li><i class="icon-calendar3"></i> <strong>Date:</strong> Sunday, 27th June 2021</li>
+									<!-- <li><i class="icon-time"></i> <strong>Timing:</strong> 20:00 - 02:00</li> -->
 									<li><i class="icon-map-marker2"></i> <strong>Location:</strong> Bali, Indonesia</li>
-									<li><i class="icon-youtube"></i> <strong>Live:</strong> https://you.tube</li>
+									<!-- <li><i class="icon-youtube"></i> <strong>Live:</strong> https://you.tube</li> -->
 								</ul>
-								<p class="testi-content">Please access it through the YouTube link above, we would be grateful to have you witness our once in a lifetime moment.</p>
+								<p class="testi-content">We would be grateful to have you witness our once in a lifetime moment.</p>
 
 							</div>
 
@@ -159,7 +161,8 @@
 
 						<div class="slider-caption slider-caption-center">
 							<h2 data-animate="fadeInUp">GIFTS</h2>
-							<p data-animate="fadeInUp" data-delay="200">"Should you wish to give a wedding gift, we would greatly appreciate a contribution to our wishlist or hóngbāo to BCA: account_bank a/n Marriage"</p>
+							<p data-animate="fadeInUp" data-delay="200">"Should you wish to give a wedding gift, we would greatly appreciate a contribution to our wishlist or hóngbāo to BCA: 0402173406 a/n Ni Luh Gede Mega Prawita"</p>
+							<a href="#" class="button button-3d button-rounded button-amber"><i class="icon-gift"></i>Wishlist</a>
 						</div>
 					</div>
 					<div class="video-wrap">
@@ -172,7 +175,7 @@
 
 				</section>
 
-				<section id="section-services" class="page-section section dark nopadding nomargin noborder ohidden" style="background-color: #222;">
+				<!-- <section id="section-services" class="page-section section dark nopadding nomargin noborder ohidden" style="background-color: #222;">
 
 					<div class="container clearfix">
 
@@ -188,7 +191,7 @@
 						<p><iframe width="560" height="315" src="https://www.youtube.com/embed/SZEflIVnhH8" frameborder="0" allowfullscreen></iframe></p>
 
 					</div>
-				</section>
+				</section> -->
 
 				<section id="section-work" class="page-section section nomargin">
 
@@ -349,56 +352,38 @@
 				<div class="container clearfix">
 
 					<div class="col_half">
-						Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.<br>
-						<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+						Copyrights &copy; 2021 All Rights Reserved.<br>
 					</div>
 
 					<div class="col_half col_last tright">
 						<div class="fright clearfix">
-							<a href="#" class="social-icon si-small si-borderless si-facebook">
+							<a href="https://www.facebook.com/agus.tri.haryono" class="social-icon si-small si-borderless si-facebook">
 								<i class="icon-facebook"></i>
 								<i class="icon-facebook"></i>
 							</a>
 
-							<a href="#" class="social-icon si-small si-borderless si-twitter">
+							<a href="https://twitter.com/agusTharyono" class="social-icon si-small si-borderless si-twitter">
 								<i class="icon-twitter"></i>
 								<i class="icon-twitter"></i>
 							</a>
 
-							<a href="#" class="social-icon si-small si-borderless si-gplus">
-								<i class="icon-gplus"></i>
-								<i class="icon-gplus"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-pinterest">
-								<i class="icon-pinterest"></i>
-								<i class="icon-pinterest"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-vimeo">
-								<i class="icon-vimeo"></i>
-								<i class="icon-vimeo"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-github">
+							<a href="https://github.com/agusth24" class="social-icon si-small si-borderless si-github">
 								<i class="icon-github"></i>
 								<i class="icon-github"></i>
 							</a>
 
-							<a href="#" class="social-icon si-small si-borderless si-yahoo">
-								<i class="icon-yahoo"></i>
-								<i class="icon-yahoo"></i>
+							<a href="https://www.instagram.com/agustharyono24/" class="social-icon si-small si-borderless si-instagram">
+								<i class="icon-instagram"></i>
+								<i class="icon-instagram"></i>
 							</a>
 
-							<a href="#" class="social-icon si-small si-borderless si-linkedin">
+							<a href="https://www.linkedin.com/in/agusharyono24/" class="social-icon si-small si-borderless si-linkedin">
 								<i class="icon-linkedin"></i>
 								<i class="icon-linkedin"></i>
 							</a>
 						</div>
 
 						<div class="clear"></div>
-
-						<i class="icon-envelope2"></i> info@canvas.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype
 					</div>
 
 				</div>
