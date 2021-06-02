@@ -200,7 +200,7 @@ h2 > span:not(.nocolor),
 h3 > span:not(.nocolor),
 h4 > span:not(.nocolor),
 h5 > span:not(.nocolor),
-h6 > span:not(.nocolor) { color: #1ABC9C; }
+h6 > span:not(.nocolor) { color: #A52A2A; }
 
 p,
 pre,
@@ -3053,6 +3053,37 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 .slider-caption p {
 	margin-bottom: 10px;
 	font-size: 24px;
+}
+
+.slider-caption titles {
+	font-family: 'Baskervville';
+	margin-bottom:10px;
+	font-size:35px;
+	font-weight:400;
+	line-height:1.2em;
+	letter-spacing:7px;
+	text-transform: uppercase;
+	display: block;
+}
+
+.slider-caption names {
+	margin-bottom: 10px;
+	font-family: "Pinyon Script";
+	font-size:115px;
+	font-weight:400;
+	line-height:1.2em;
+	display: block;
+}
+
+.slider-caption dates {
+	font-family: 'Libre Baskervville';
+	margin-bottom:10px;
+	font-size:35px;
+	font-weight:400;
+	line-height:1.2em;
+	letter-spacing:7px;
+	text-transform: uppercase;
+	display: block;
 }
 
 .slider-caption.slider-caption-right {
@@ -11335,7 +11366,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 	display: block;
 	background: transparent;
 	padding: 0 0 10px;
-	border-bottom: 2px solid #1ABC9C;
+	border-bottom: 2px solid #A52A2A;
 }
 
 

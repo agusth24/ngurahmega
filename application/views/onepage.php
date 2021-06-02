@@ -54,23 +54,28 @@
 		============================================= -->
 		<!-- #header end -->
 
-		<section id="slider" class="slider-parallax force-full-screen full-screen">
+		<section id="slider" class="force-full-screen full-screen">
 
-			<div class="slider-parallax-inner">
 
-				<div class="force-full-screen full-screen dark" style="background: url('<?= base_url() ?>assets/images/slider/swiper/1.jpg') center center;">
+			<div class="force-full-screen full-screen dark section nopadding nomargin noborder ohidden">
 
-					<div class="container clearfix">
-						<div class="slider-caption slider-caption-center">
-							<h2 data-animate="fadeInDown" style="font-family: 'Baskervville';margin-bottom:10px;font-size:35px;font-weight:400;line-height:1.2em;letter-spacing:7px;">The Wedding Of</h2>
-							<p data-animate="fadeInUp" data-delay="400" style='font-family: "Pinyon Script";font-size:115px;font-weight:400;line-height:1.2em;'>Ngurah & Mega</p>
-							<h2 data-animate="fadeInUp" data-delay="400" style="font-family: 'Libre Baskervville';margin-bottom:10px;font-size:35px;font-weight:400;line-height:1.2em;letter-spacing:7px;">27.06.2021</h2>
-						</div>
+				<div class="container clearfix">
+					<div class="slider-caption slider-caption-center">
+						<titles data-animate="fadeInDown">The Wedding Of</titles>
+						<names data-animate="fadeInUp" data-delay="400">Ngurah & Mega</names>
+						<dates data-animate="fadeInDown" data-delay="400">27.06.2021</dates>
 					</div>
-
+				</div>
+				<div class="video-wrap">
+					<video poster="<?= base_url() ?>assets/images/ngurahmega/Video_Thumb.png" preload="auto" loop autoplay muted>
+						<source src='<?= base_url() ?>assets/images/ngurahmega/video.mp4' type='video/mp4' />
+						<source src='<?= base_url() ?>assets/images/videos/video.webm' type='video/webm' />
+					</video>
+					<div class="video-overlay" style="background-color: rgba(0,0,0,0.45);"></div>
 				</div>
 
 			</div>
+
 
 		</section>
 
@@ -130,7 +135,6 @@
 
 						<div class="container clearfix">
 
-
 							<div class="col_half nobottommargin col_last" style="color:#EBE6D5">
 
 								<div class="heading-block center">
@@ -141,7 +145,7 @@
 								<ul class="iconlist">
 									<li><i class="icon-calendar3"></i> <strong>Date:</strong> Sunday, 27th June 2021</li>
 									<!-- <li><i class="icon-time"></i> <strong>Timing:</strong> 20:00 - 02:00</li> -->
-									<li><i class="icon-map-marker2"></i> <strong>Location:</strong> Bali, Indonesia</li>
+									<li><i class="icon-map-marker2"></i> <strong>Location:</strong> Jl. Merdeka IX No.2, Sumerta Kelod, Kec. Denpasar Tim., Kota Denpasar, Bali 80239, Indonesia</li>
 									<!-- <li><i class="icon-youtube"></i> <strong>Live:</strong> https://you.tube</li> -->
 								</ul>
 								<p class="testi-content">We would be grateful to have you witness our once in a lifetime moment.</p>
@@ -160,17 +164,17 @@
 						<i class="i-plain i-xlarge icon-diamond divcenter bottommargin"></i>
 
 						<div class="slider-caption slider-caption-center">
-							<h2 data-animate="fadeInUp">GIFTS</h2>
+							<h2 class="home" data-animate="fadeInUp">GIFTS</h2>
 							<p data-animate="fadeInUp" data-delay="200">"Should you wish to give a wedding gift, we would greatly appreciate a contribution to our wishlist or hóngbāo to BCA: 0402173406 a/n Ni Luh Gede Mega Prawita"</p>
 							<a href="#" class="button button-3d button-rounded button-amber"><i class="icon-gift"></i>Wishlist</a>
 						</div>
 					</div>
 					<div class="video-wrap">
-						<video poster="<?= base_url() ?>assets/images/videos/explore.jpg" preload="auto" loop autoplay muted>
-							<source src='<?= base_url() ?>assets/images/videos/explore.mp4' type='video/mp4' />
-							<source src='<?= base_url() ?>assets/images/videos/explore.webm' type='video/webm' />
+						<video poster="<?= base_url() ?>assets/images/ngurahmega/Video_Thumb.png" preload="auto" loop autoplay muted>
+							<source src='<?= base_url() ?>assets/images/ngurahmega/video.mp4' type='video/mp4' />
+							<source src='<?= base_url() ?>assets/images/videos/video.webm' type='video/webm' />
 						</video>
-						<div class="video-overlay" style="background-color: rgba(0,0,0,0.2);"></div>
+						<div class="video-overlay" style="background-color: rgba(0,0,0,0.45);"></div>
 					</div>
 
 				</section>
@@ -412,12 +416,12 @@
 
 	<script type="text/javascript">
 		$('#google-map').gMap({
-			address: 'Bali, Indonesia',
+			address: 'Denpasar, Denpasar City, Bali',
 			maptype: 'ROADMAP',
 			zoom: 10,
 			markers: [{
-				address: "Bali, Indonesia",
-				html: 'Hello There!!',
+				address: 'Jl. Merdeka IX No.2, Sumerta Kelod, Kec. Denpasar Tim., Kota Denpasar, Bali 80239, Indonesia',
+				html: 'Jl. Merdeka IX No.2, Sumerta Kelod, Kec. Denpasar Tim, Kota Denpasar, Bali, Indonesia',
 				icon: {
 					image: "<?= base_url() ?>assets/images/icons/map-icon-red.png",
 					iconsize: [32, 39],
