@@ -1778,6 +1778,8 @@ var SEMICOLON = SEMICOLON || {};
 					} else {
 						$(this).css({ top: ( scapSliderHeight + 100 - scapHeight ) / 2 + 'px' });
 					}
+				} else if ( $(this).hasClass('home') ) {
+					$(this).css({ top: ( scapSliderHeight + 350 - scapHeight ) / 2 + 'px' });
 				} else {
 					$(this).css({ top: ( scapSliderHeight - scapHeight ) / 2 + 'px' });
 				}
@@ -2134,6 +2136,7 @@ var SEMICOLON = SEMICOLON || {};
 			SEMICOLON.widget.stickySidebar();
 			SEMICOLON.widget.cookieNotify();
 			SEMICOLON.widget.extras();
+			SEMICOLON.widget.noscroll();
 
 		},
 
@@ -3498,6 +3501,26 @@ var SEMICOLON = SEMICOLON || {};
 			// el.darkRetinaLogo.prependTo("body");
 			// el.darkLogo.css({'position':'absolute','z-index':'-100'});
 			// el.darkRetinaLogo.css({'position':'absolute','z-index':'-100'});
+		},
+
+		noscroll: function(){
+			$('body,html').stop(true).animate({
+				'scrollTop': 0
+			}, 1000);
+			$body.css({
+				overflow: 'hidden',
+				height: '100%'
+			});
+			console.log('Invitation');
+			$('#invitation').click(function(e) {
+				e.preventDefault();
+				$body.css({
+					overflow: ''
+				});
+				$('body,html').stop(true).animate({
+                    scrollTop: $("#content").offset().top
+                }, 1000);
+			});
 		}
 
 	};
@@ -3574,11 +3597,11 @@ var SEMICOLON = SEMICOLON || {};
 			if( $slider.length > 0 ) { SEMICOLON.slider.init(); }
 			if( $portfolio.length > 0 ) { SEMICOLON.portfolio.init(); }
 			SEMICOLON.widget.init();
-			SEMICOLON.documentOnReady.windowscroll();
+			//SEMICOLON.documentOnReady.windowscroll();
 		},
 
 		windowscroll: function(){
-
+			console.log('ScrollTop');
 			var headerOffset = 0,
 				headerWrapOffset = 0,
 				pageMenuOffset = 0;

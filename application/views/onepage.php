@@ -60,10 +60,14 @@
 			<div class="force-full-screen full-screen dark section nopadding nomargin noborder ohidden">
 
 				<div class="container clearfix">
-					<div class="slider-caption slider-caption-center">
+					<div class="slider-caption slider-caption-center home">
 						<titles data-animate="fadeInDown">The Wedding Of</titles>
 						<names data-animate="fadeInUp" data-delay="400">Ngurah & Mega</names>
 						<dates data-animate="fadeInDown" data-delay="400">27.06.2021</dates>
+						<div class="invitation">
+							<p>Dear :</p>
+							<a href="javascript:void(0);" id="invitation" class="button button-3d button-rounded button-white button-light"><i class="icon-envelope2"></i>Open Invitation</a>
+						</div>
 					</div>
 				</div>
 				<div class="video-wrap">
@@ -93,17 +97,7 @@
 							<span>Everything you need to know about us.</span>
 						</div>
 
-						<div class="col-md-6">
-
-							<div class="heading-block fancy-title nobottomborder title-bottom-border">
-								<h4>The <span>Meeting</span>.</h4>
-							</div>
-
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
-
-						</div>
-
-						<div class="col-md-6">
+						<div class="col-md-12">
 
 							<div class="heading-block fancy-title nobottomborder title-bottom-border">
 								<h4>Our <span>Story</span>.</h4>
@@ -139,12 +133,12 @@
 
 								<div class="heading-block center">
 									<h4 style="color:#EBE6D5;">The Wedding</h4>
-									<span>WEDDING RECEPTION</span>
+									<span>Balinese Wedding Ceremony</span>
 								</div>
-								<p class="testi-content">Hi there, we would like to invite you to our wedding reception which will be held on :</p>
+								<p class="testi-content">Hi there, we would like to invite you to our wedding ceremony which will be held on :</p>
 								<ul class="iconlist">
-									<li><i class="icon-calendar3"></i> <strong>Date:</strong> Sunday, 27th June 2021</li>
-									<!-- <li><i class="icon-time"></i> <strong>Timing:</strong> 20:00 - 02:00</li> -->
+									<li><i class="icon-calendar3"></i> <strong>Date:</strong> Wednesday, 16th June 2021</li>
+									<li><i class="icon-time"></i> <strong>Timing:</strong> 15:00 - 20:00</li>
 									<li><i class="icon-map-marker2"></i> <strong>Location:</strong> Jl. Merdeka IX No.2, Sumerta Kelod, Kec. Denpasar Tim., Kota Denpasar, Bali 80239, Indonesia</li>
 									<!-- <li><i class="icon-youtube"></i> <strong>Live:</strong> https://you.tube</li> -->
 								</ul>
@@ -165,8 +159,7 @@
 
 						<div class="slider-caption slider-caption-center">
 							<h2 class="home" data-animate="fadeInUp">GIFTS</h2>
-							<p data-animate="fadeInUp" data-delay="200">"Should you wish to give a wedding gift, we would greatly appreciate a contribution to our wishlist or hóngbāo to BCA: 0402173406 a/n Ni Luh Gede Mega Prawita"</p>
-							<a href="#" class="button button-3d button-rounded button-amber"><i class="icon-gift"></i>Wishlist</a>
+							<p data-animate="fadeInUp" data-delay="200">"Should you wish to give a wedding gift, we would greatly appreciate a contribution to BCA: 0402173406 a/n Ni Luh Gede Mega Prawita"</p>
 						</div>
 					</div>
 					<div class="video-wrap">

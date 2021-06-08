@@ -3058,7 +3058,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 .slider-caption titles {
 	font-family: 'Baskervville';
 	margin-bottom:10px;
-	font-size:35px;
+	font-size:30px;
 	font-weight:400;
 	line-height:1.2em;
 	letter-spacing:7px;
@@ -3069,7 +3069,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 .slider-caption names {
 	margin-bottom: 10px;
 	font-family: "Pinyon Script";
-	font-size:115px;
+	font-size:100px;
 	font-weight:400;
 	line-height:1.2em;
 	display: block;
@@ -3084,6 +3084,10 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	letter-spacing:7px;
 	text-transform: uppercase;
 	display: block;
+}
+
+.slider-caption > .invitation {
+	margin-top: 30px;
 }
 
 .slider-caption.slider-caption-right {
