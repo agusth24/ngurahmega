@@ -1456,7 +1456,6 @@
 	#top-social,
 	#slider:not(.swiper_wrapper) .nivo-caption,
 	.flex-caption,
-	.slider-caption .button,
 	.camera_caption,
 	.ei-title,
 	.slider-arrow-top-sm,
@@ -1495,6 +1494,14 @@
 		display: block;
 	}
 
+	.slider-caption > .invitation p {
+		font-family: 'Merriweather';
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 1.2em;
+		text-transform: uppercase;
+		display: block;
+	}
 
 	.flex-control-nav li {
 		opacity: 1 !important;

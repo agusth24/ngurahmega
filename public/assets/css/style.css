@@ -3090,6 +3090,15 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	margin-top: 30px;
 }
 
+.slider-caption > .invitation p {
+	font-family: 'Merriweather';
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.2em;
+	text-transform: uppercase;
+	display: block;
+}
+
 .slider-caption.slider-caption-right {
 	left: auto;
 	right: 15px;
