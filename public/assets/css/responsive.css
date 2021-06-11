@@ -1494,6 +1494,10 @@
 		display: block;
 	}
 
+	.slider-caption > .invitation {
+		margin-top: 440px;
+	}
+
 	.slider-caption > .invitation p {
 		font-family: 'Merriweather';
 		font-size: 12px;

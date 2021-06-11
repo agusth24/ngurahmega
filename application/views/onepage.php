@@ -53,29 +53,21 @@
 		<!-- Header
 		============================================= -->
 		<!-- #header end -->
+		<section id="slider" class="slider-parallax force-full-screen full-screen">
+			<div class="slider-parallax-inner">
+				<div class="force-full-screen full-screen dark" style="background: url('<?= base_url() ?>assets/images/ngurahmega/home__resize.jpg') top center;">
 
-		<section id="slider" class="force-full-screen full-screen">
-
-
-			<div class="force-full-screen full-screen dark section nopadding nomargin noborder ohidden">
-
-				<div class="container clearfix">
-					<div class="slider-caption slider-caption-center home">
-						<titles data-animate="fadeInDown">The Wedding Of</titles>
-						<names data-animate="fadeInUp" data-delay="400">Ngurah & Mega</names>
-						<dates data-animate="fadeInDown" data-delay="400">27.06.2021</dates>
-						<div class="invitation">
-							<p>Dear :</p>
-							<a href="javascript:void(0);" id="invitation" class="button button-3d button-rounded button-white button-light"><i class="icon-envelope2"></i>Open Invitation</a>
+					<div class="container clearfix">
+						<div class="slider-caption slider-caption-center home">
+							<titles data-animate="fadeInDown">The Wedding Of</titles>
+							<names data-animate="fadeInUp" data-delay="400">Ngurah & Mega</names>
+							<dates data-animate="fadeInDown" data-delay="400">27.06.2021</dates>
+							<div class="invitation">
+								<p>Dear :</p>
+								<a href="javascript:void(0);" id="invitation" class="button button-3d button-rounded button-white button-light"><i class="icon-envelope2"></i>Open Invitation</a>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="video-wrap">
-					<video poster="<?= base_url() ?>assets/images/ngurahmega/Video_Thumb.png" preload="auto" loop autoplay muted>
-						<source src='<?= base_url() ?>assets/images/ngurahmega/video.mp4' type='video/mp4' />
-						<source src='<?= base_url() ?>assets/images/videos/video.webm' type='video/webm' />
-					</video>
-					<div class="video-overlay" style="background-color: rgba(0,0,0,0.45);"></div>
 				</div>
 
 			</div>
@@ -110,20 +102,18 @@
 						<div class="clear"></div>
 
 						<div class="col_full nobottommargin clearfix">
-							<div class="masonry-thumbs col-6" data-lightbox="gallery">
-								<a href="<?= base_url() ?>assets/images/ngurahmega/1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/1_resize.jpg" alt="Gallery Thumb 1"></a>
-								<a href="<?= base_url() ?>assets/images/ngurahmega/2.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/2_resize.jpg" alt="Gallery Thumb 2"></a>
-								<a href="<?= base_url() ?>assets/images/ngurahmega/3.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/3_resize.jpg" alt="Gallery Thumb 3"></a>
-								<a href="<?= base_url() ?>assets/images/ngurahmega/4.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/4_resize.jpg" alt="Gallery Thumb 4"></a>
-								<a href="<?= base_url() ?>assets/images/ngurahmega/5.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/5_resize.jpg" alt="Gallery Thumb 2"></a>
-								<a href="<?= base_url() ?>assets/images/ngurahmega/6.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/6_resize.jpg" alt="Gallery Thumb 3"></a>
+							<div class="masonry-thumbs col-4" data-lightbox="gallery">
+								<a href="<?= base_url() ?>assets/images/ngurahmega/story1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/story1_resize.jpg" alt="Gallery Thumb 1"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/story1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/story2_resize.jpg" alt="Gallery Thumb 2"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/story1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/story3_resize.jpg" alt="Gallery Thumb 3"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/story1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/story4_resize.jpg" alt="Gallery Thumb 4"></a>
 							</div>
 						</div>
 
 					</div>
 				</section>
 
-				<section id="section-testimonials" class="page-section section parallax full-screen nomargin dark" style="background-image: url('<?= base_url() ?>assets/images/about/me-parallax.jpg'); padding: 200px 0;" data-stellar-background-ratio="0.3">
+				<section id="section-testimonials" class="page-section section parallax full-screen nomargin dark" style="background-image: url('<?= base_url() ?>assets/images/ngurahmega/wedding_resize.jpg'); padding: 200px 0;" data-stellar-background-ratio="0.3">
 
 					<div class="vertical-middle">
 
@@ -139,11 +129,12 @@
 								<ul class="iconlist">
 									<li><i class="icon-calendar3"></i> <strong>Date:</strong> Wednesday, 16th June 2021</li>
 									<li><i class="icon-time"></i> <strong>Timing:</strong> 15:00 - 20:00</li>
-									<li><i class="icon-map-marker2"></i> <strong>Location:</strong> Jl. Merdeka IX No.2, Sumerta Kelod, Kec. Denpasar Tim., Kota Denpasar, Bali 80239, Indonesia</li>
+									<li><i class="icon-map-marker2"></i> <strong>Location:</strong> Gg. I, Les, Tejakula, Kabupaten Buleleng, Bali 81173, Indonesia</li>
 									<!-- <li><i class="icon-youtube"></i> <strong>Live:</strong> https://you.tube</li> -->
 								</ul>
-								<p class="testi-content">We would be grateful to have you witness our once in a lifetime moment.</p>
-
+								<p class="testi-content">Please access it through the YouTube link below, we would be grateful to have you witness our once in a lifetime moment.</p>
+								<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NThibWZzc2UyaGhucWc4NWZtZWVmN2ppY2sgc2FuZGFsLmplcGl0c0Bt&tmsrc=sandal.jepits%40gmail.com" target="_blank" class="button button-3d button-rounded button-white button-light"><i class="icon-calendar"></i>Add To Calendar</a>
+								<a href="#" class="button button-3d button-rounded button-white button-light"><i class="icon-youtube"></i>Watch</a>
 							</div>
 
 						</div>
@@ -152,7 +143,7 @@
 
 				</section>
 
-				<section id="section-video" class="page-section full-screen section dark nopadding nomargin noborder ohidden">
+				<section id="section-video" class="page-section full-screen section nopadding nomargin noborder ohidden">
 
 					<div class="container vertical-middle center clearfix">
 						<i class="i-plain i-xlarge icon-diamond divcenter bottommargin"></i>
@@ -161,13 +152,6 @@
 							<h2 class="home" data-animate="fadeInUp">GIFTS</h2>
 							<p data-animate="fadeInUp" data-delay="200">"Should you wish to give a wedding gift, we would greatly appreciate a contribution to BCA: 0402173406 a/n Ni Luh Gede Mega Prawita"</p>
 						</div>
-					</div>
-					<div class="video-wrap">
-						<video poster="<?= base_url() ?>assets/images/ngurahmega/Video_Thumb.png" preload="auto" loop autoplay muted>
-							<source src='<?= base_url() ?>assets/images/ngurahmega/video.mp4' type='video/mp4' />
-							<source src='<?= base_url() ?>assets/images/videos/video.webm' type='video/webm' />
-						</video>
-						<div class="video-overlay" style="background-color: rgba(0,0,0,0.45);"></div>
 					</div>
 
 				</section>
@@ -199,16 +183,19 @@
 					<div class="container clearfix center">
 
 						<div class="col_full nobottommargin clearfix">
-							<div class="masonry-thumbs col-4" data-big="4" data-lightbox="gallery">
-								<a href="<?= base_url() ?>assets/images/portfolio/full/1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/1.jpg" alt="Gallery Thumb 1"></a>
-								<a href="<?= base_url() ?>assets/images/portfolio/full/2.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/2.jpg" alt="Gallery Thumb 2"></a>
-								<a href="<?= base_url() ?>assets/images/portfolio/full/3.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/3.jpg" alt="Gallery Thumb 3"></a>
-								<a href="<?= base_url() ?>assets/images/portfolio/full/4.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/4.jpg" alt="Gallery Thumb 4"></a>
-								<a href="<?= base_url() ?>assets/images/portfolio/full/1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/1.jpg" alt="Gallery Thumb 1"></a>
-								<a href="<?= base_url() ?>assets/images/portfolio/full/2.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/2.jpg" alt="Gallery Thumb 2"></a>
-								<a href="<?= base_url() ?>assets/images/portfolio/full/3.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/3.jpg" alt="Gallery Thumb 3"></a>
-								<a href="<?= base_url() ?>assets/images/portfolio/full/4.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/4.jpg" alt="Gallery Thumb 4"></a>
-								<a href="<?= base_url() ?>assets/images/portfolio/full/4.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/portfolio/4/4.jpg" alt="Gallery Thumb 4"></a>
+							<div class="masonry-thumbs col-4" data-lightbox="gallery">
+								<a href="<?= base_url() ?>assets/images/ngurahmega/G_1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/G_1_resize.jpg" alt="Gallery Thumb 1"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/G_2.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/G_2_resize.jpg" alt="Gallery Thumb 2"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/G_3.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/G_3_resize.jpg" alt="Gallery Thumb 3"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/G_4.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/G_4_resize.jpg" alt="Gallery Thumb 4"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/G_6.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/G_6_resize.jpg" alt="Gallery Thumb 6"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/G_7.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/G_7_resize.jpg" alt="Gallery Thumb 7"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/G_8.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/G_8_resize.jpg" alt="Gallery Thumb 8"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/G_9.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/G_9_resize.jpg" alt="Gallery Thumb 9"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/G_10.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/G_10_resize.jpg" alt="Gallery Thumb 10"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/G_11.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/G_11_resize.jpg" alt="Gallery Thumb 11"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/G_12.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/G_12_resize.jpg" alt="Gallery Thumb 12"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/G_13.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/G_13_resize.jpg" alt="Gallery Thumb 13"></a>
 							</div>
 						</div>
 
@@ -402,7 +389,7 @@
 
 	<!-- Footer Scripts
 	============================================= -->
-	<script type="text/javascript" src="<?= base_url() ?>assets/js/functions.js"></script>
+	<script type="text/javascript" src="<?= base_url() ?>assets/js/functions.js?v=<?= date('Ymd') ?>"></script>
 
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB512r7gWmwtlHPpYgZg7HkjCmi6Vg0Ots"></script>
 	<script type="text/javascript" src="<?= base_url() ?>assets/js/jquery.gmap.js"></script>
@@ -413,8 +400,8 @@
 			maptype: 'ROADMAP',
 			zoom: 10,
 			markers: [{
-				address: 'Jl. Merdeka IX No.2, Sumerta Kelod, Kec. Denpasar Tim., Kota Denpasar, Bali 80239, Indonesia',
-				html: 'Jl. Merdeka IX No.2, Sumerta Kelod, Kec. Denpasar Tim, Kota Denpasar, Bali, Indonesia',
+				address: 'Gg. I, Les, Tejakula, Kabupaten Buleleng, Bali 81173, Indonesia',
+				html: 'Gg. I, Les, Tejakula, Kabupaten Buleleng, Bali 81173, Indonesia',
 				icon: {
 					image: "<?= base_url() ?>assets/images/icons/map-icon-red.png",
 					iconsize: [32, 39],
