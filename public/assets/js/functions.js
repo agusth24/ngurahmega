@@ -2155,17 +2155,16 @@ var SEMICOLON = SEMICOLON || {};
 					}
 				} else if ($(this).hasClass('home')) {
 					$(this).css({
-						top: (scapSliderHeight + 350 - scapHeight) / 2 + 'px'
+						top: (scapSliderHeight + 150 - scapHeight) / 2 + 'px'
 					});
-					if (window.matchMedia('(max-width: 767px)').matches && $(this).hasClass('home')) {
+					if ($body.hasClass('device-xss') && $(this).hasClass('home')) {
 						$(this).css({
-							top: (scapHeight - 550) / 2 + 'px'
+							top: (scapSliderHeight + 30 - scapHeight) / 2 + 'px'
 						});
-						// if (window.matchMedia('(max-width: 767px)').matches && $('.invitation')) {
-						// 	$('.invitation').css({
-						// 		'margin-top': (scapSliderHeight + 350 - scapHeight) / 2 + 'px'
-						// 	});
-						// }
+					} else if ($body.hasClass('device-xs') && $(this).hasClass('home')) {
+						$(this).css({
+							top: (scapSliderHeight + 10 - scapHeight) / 2 + 'px'
+						});
 					}
 				} else {
 					$(this).css({

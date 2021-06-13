@@ -61,7 +61,7 @@
 						<div class="slider-caption slider-caption-center home">
 							<titles data-animate="fadeInDown">The Wedding Of</titles>
 							<names data-animate="fadeInUp" data-delay="400">Ngurah & Mega</names>
-							<dates data-animate="fadeInDown" data-delay="400">27.06.2021</dates>
+							<dates data-animate="fadeInDown" data-delay="400">16.06.2021</dates>
 							<div class="invitation">
 								<p>Dear :</p>
 								<a href="javascript:void(0);" id="invitation" class="button button-3d button-rounded button-white button-light"><i class="icon-envelope2"></i>Open Invitation</a>
@@ -104,9 +104,9 @@
 						<div class="col_full nobottommargin clearfix">
 							<div class="masonry-thumbs col-4" data-lightbox="gallery">
 								<a href="<?= base_url() ?>assets/images/ngurahmega/story1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/story1_resize.jpg" alt="Gallery Thumb 1"></a>
-								<a href="<?= base_url() ?>assets/images/ngurahmega/story1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/story2_resize.jpg" alt="Gallery Thumb 2"></a>
-								<a href="<?= base_url() ?>assets/images/ngurahmega/story1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/story3_resize.jpg" alt="Gallery Thumb 3"></a>
-								<a href="<?= base_url() ?>assets/images/ngurahmega/story1.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/story4_resize.jpg" alt="Gallery Thumb 4"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/story2.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/story2_resize.jpg" alt="Gallery Thumb 2"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/story3.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/story3_resize.jpg" alt="Gallery Thumb 3"></a>
+								<a href="<?= base_url() ?>assets/images/ngurahmega/story4.jpg" data-lightbox="gallery-item"><img class="image_fade" src="<?= base_url() ?>assets/images/ngurahmega/thumb/story4_resize.jpg" alt="Gallery Thumb 4"></a>
 							</div>
 						</div>
 
@@ -130,11 +130,10 @@
 									<li><i class="icon-calendar3"></i> <strong>Date:</strong> Wednesday, 16th June 2021</li>
 									<li><i class="icon-time"></i> <strong>Timing:</strong> 15:00 - 20:00</li>
 									<li><i class="icon-map-marker2"></i> <strong>Location:</strong> Gg. I, Les, Tejakula, Kabupaten Buleleng, Bali 81173, Indonesia</li>
-									<!-- <li><i class="icon-youtube"></i> <strong>Live:</strong> https://you.tube</li> -->
 								</ul>
 								<p class="testi-content">Please access it through the YouTube link below, we would be grateful to have you witness our once in a lifetime moment.</p>
 								<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NThibWZzc2UyaGhucWc4NWZtZWVmN2ppY2sgc2FuZGFsLmplcGl0c0Bt&tmsrc=sandal.jepits%40gmail.com" target="_blank" class="button button-3d button-rounded button-white button-light"><i class="icon-calendar"></i>Add To Calendar</a>
-								<a href="#" class="button button-3d button-rounded button-white button-light"><i class="icon-youtube"></i>Watch</a>
+								<a href="https://youtu.be/b6ZsgfIf92o" class="button button-3d button-rounded button-white button-light"><i class="icon-youtube"></i>Watch</a>
 							</div>
 
 						</div>
