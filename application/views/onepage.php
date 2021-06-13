@@ -251,7 +251,7 @@
 
 									<div class="contact-form-result"></div>
 
-									<form class="nobottommargin" id="template-wishes" name="template-wishes" action="onepage/wishes" method="post">
+									<form class="nobottommargin" id="template-wishes" name="template-wishes" action="/index.php/onepage/wishes" method="post">
 
 										<div class="col_full">
 											<label for="template-contactform-name">Name <small>*</small></label>
