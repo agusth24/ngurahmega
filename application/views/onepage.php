@@ -11,6 +11,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Quicksand%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CBaskervville%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPinyon+Script%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CLibre+Baskerville%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMerriweather%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=5.7.2" rel="stylesheet" type="text/css" />
 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.17/dist/sweetalert2.min.css" type="text/css" />
 	<link rel="stylesheet" href="<?= base_url() ?>assets/css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="<?= base_url() ?>assets/css/style.css" type="text/css" />
 	<link rel="stylesheet" href="<?= base_url() ?>assets/css/dark.css" type="text/css" />
@@ -210,62 +211,23 @@
 						</div>
 
 						<div id="oc-testi" class="owl-carousel testimonials-carousel carousel-widget" data-margin="20" data-items-xs="1" data-items-sm="2" data-items-lg="3">
-
-							<div class="oc-item">
-								<div class="testimonial">
-									<div class="testi-content">
-										<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
-										<div class="testi-meta">
-											John Doe
+							<?php
+							if ($datas != false) :
+								foreach ($datas as $row) :
+							?>
+									<div class="oc-item">
+										<div class="testimonial">
+											<div class="testi-content">
+												<p><?= $row->wishDesc ?></p>
+												<div class="testi-meta">
+													<?= $row->wishName ?>
+												</div>
+											</div>
 										</div>
 									</div>
-								</div>
-							</div>
 
-							<div class="oc-item">
-								<div class="testimonial">
-									<div class="testi-content">
-										<p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
-										<div class="testi-meta">
-											Collis Ta'eed
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="oc-item">
-								<div class="testimonial">
-									<div class="testi-content">
-										<p>Fugit officia dolor sed harum excepturi ex iusto magnam asperiores molestiae qui natus obcaecati facere sint amet.</p>
-										<div class="testi-meta">
-											Mary Jane
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="oc-item">
-								<div class="testimonial">
-									<div class="testi-content">
-										<p>Similique fugit repellendus expedita excepturi iure perferendis provident quia eaque. Repellendus, vero numquam?</p>
-										<div class="testi-meta">
-											Steve Jobs
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="oc-item">
-								<div class="testimonial">
-									<div class="testi-content">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, perspiciatis illum totam dolore deleniti labore.</p>
-										<div class="testi-meta">
-											Jamie Morrison
-										</div>
-									</div>
-								</div>
-							</div>
-
+							<?php endforeach;
+							endif ?>
 						</div>
 
 					</div>
@@ -289,20 +251,20 @@
 
 									<div class="contact-form-result"></div>
 
-									<form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/sendemail.php" method="post">
+									<form class="nobottommargin" id="template-wishes" name="template-wishes" action="onepage/wishes" method="post">
 
 										<div class="col_full">
 											<label for="template-contactform-name">Name <small>*</small></label>
-											<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
+											<input type="text" id="template-contactform-name" name="name" value="" class="sm-form-control required" />
 										</div>
 
 										<div class="col_full">
 											<label for="template-contactform-message">Message <small>*</small></label>
-											<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
+											<textarea class="required sm-form-control" id="template-contactform-message" name="message" rows="6" cols="30"></textarea>
 										</div>
 
 										<div class="col_full">
-											<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
+											<button class="button button-3d nomargin" type="submit" id="btn_save" name="template-contactform-submit" value="submit">Send Message</button>
 										</div>
 
 									</form>
@@ -385,6 +347,7 @@
 	============================================= -->
 	<script type="text/javascript" src="<?= base_url() ?>assets/js/jquery.js"></script>
 	<script type="text/javascript" src="<?= base_url() ?>assets/js/plugins.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.17/dist/sweetalert2.all.min.js"></script>
 
 	<!-- Footer Scripts
 	============================================= -->

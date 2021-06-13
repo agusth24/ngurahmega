@@ -2556,7 +2556,7 @@ var SEMICOLON = SEMICOLON || {};
 			SEMICOLON.widget.textRotater();
 			SEMICOLON.widget.carousel();
 			SEMICOLON.widget.linkScroll();
-			SEMICOLON.widget.contactForm();
+			SEMICOLON.widget.contactWishes();
 			SEMICOLON.widget.subscription();
 			SEMICOLON.widget.quickContact();
 			SEMICOLON.widget.stickySidebar();
@@ -3916,80 +3916,142 @@ var SEMICOLON = SEMICOLON || {};
 			});
 		},
 
-		contactForm: function () {
+		// contactForm: function () {
+
+		// 	if (!$().validate) {
+		// 		console.log('contactForm: Form Validate not Defined.');
+		// 		return true;
+		// 	}
+
+		// 	if (!$().ajaxSubmit) {
+		// 		console.log('contactForm: jQuery Form not Defined.');
+		// 		return true;
+		// 	}
+
+		// 	var $contactForm = $('.contact-widget:not(.customjs)');
+		// 	if ($contactForm.length < 1) {
+		// 		return true;
+		// 	}
+
+		// 	$contactForm.each(function () {
+		// 		var element = $(this),
+		// 			elementAlert = element.attr('data-alert-type'),
+		// 			elementLoader = element.attr('data-loader'),
+		// 			elementResult = element.find('.contact-form-result'),
+		// 			elementRedirect = element.attr('data-redirect');
+
+		// 		element.find('form').validate({
+		// 			submitHandler: function (form) {
+
+		// 				elementResult.hide();
+
+		// 				if (elementLoader == 'button') {
+		// 					var defButton = $(form).find('button'),
+		// 						defButtonText = defButton.html();
+
+		// 					defButton.html('<i class="icon-line-loader icon-spin nomargin"></i>');
+		// 				} else {
+		// 					$(form).find('.form-process').fadeIn();
+		// 				}
+
+		// 				$(form).ajaxSubmit({
+		// 					target: elementResult,
+		// 					dataType: 'json',
+		// 					success: function (data) {
+		// 						if (elementLoader == 'button') {
+		// 							defButton.html(defButtonText);
+		// 						} else {
+		// 							$(form).find('.form-process').fadeOut();
+		// 						}
+		// 						if (data.alert != 'error' && elementRedirect) {
+		// 							window.location.replace(elementRedirect);
+		// 							return true;
+		// 						}
+		// 						if (elementAlert == 'inline') {
+		// 							if (data.alert == 'error') {
+		// 								var alertType = 'alert-danger';
+		// 							} else {
+		// 								var alertType = 'alert-success';
+		// 							}
+
+		// 							elementResult.removeClass('alert-danger alert-success').addClass('alert ' + alertType).html(data.message).slideDown(400);
+		// 						} else {
+		// 							elementResult.attr('data-notify-type', data.alert).attr('data-notify-msg', data.message).html('');
+		// 							SEMICOLON.widget.notifications(elementResult);
+		// 						}
+		// 						if ($(form).find('.g-recaptcha').children('div').length > 0) {
+		// 							grecaptcha.reset();
+		// 						}
+		// 						if (data.alert != 'error') {
+		// 							$(form).clearForm();
+		// 						}
+		// 					}
+		// 				});
+		// 			}
+		// 		});
+
+		// 	});
+		// },
+
+		contactWishes: function () {
 
 			if (!$().validate) {
-				console.log('contactForm: Form Validate not Defined.');
+				console.log('contactWishes: Form Validate not Defined.');
 				return true;
 			}
 
 			if (!$().ajaxSubmit) {
-				console.log('contactForm: jQuery Form not Defined.');
+				console.log('contactWishes: jQuery Form not Defined.');
 				return true;
 			}
 
-			var $contactForm = $('.contact-widget:not(.customjs)');
-			if ($contactForm.length < 1) {
+			var $contactWishes = $('.contact-widget:not(.customjs)');
+			if ($contactWishes.length < 1) {
 				return true;
 			}
 
-			$contactForm.each(function () {
-				var element = $(this),
-					elementAlert = element.attr('data-alert-type'),
-					elementLoader = element.attr('data-loader'),
-					elementResult = element.find('.contact-form-result'),
-					elementRedirect = element.attr('data-redirect');
-
-				element.find('form').validate({
-					submitHandler: function (form) {
-
-						elementResult.hide();
-
-						if (elementLoader == 'button') {
-							var defButton = $(form).find('button'),
-								defButtonText = defButton.html();
-
-							defButton.html('<i class="icon-line-loader icon-spin nomargin"></i>');
-						} else {
-							$(form).find('.form-process').fadeIn();
-						}
-
-						$(form).ajaxSubmit({
-							target: elementResult,
-							dataType: 'json',
-							success: function (data) {
-								if (elementLoader == 'button') {
-									defButton.html(defButtonText);
-								} else {
-									$(form).find('.form-process').fadeOut();
-								}
-								if (data.alert != 'error' && elementRedirect) {
-									window.location.replace(elementRedirect);
-									return true;
-								}
-								if (elementAlert == 'inline') {
-									if (data.alert == 'error') {
-										var alertType = 'alert-danger';
-									} else {
-										var alertType = 'alert-success';
-									}
-
-									elementResult.removeClass('alert-danger alert-success').addClass('alert ' + alertType).html(data.message).slideDown(400);
-								} else {
-									elementResult.attr('data-notify-type', data.alert).attr('data-notify-msg', data.message).html('');
-									SEMICOLON.widget.notifications(elementResult);
-								}
-								if ($(form).find('.g-recaptcha').children('div').length > 0) {
-									grecaptcha.reset();
-								}
-								if (data.alert != 'error') {
-									$(form).clearForm();
-								}
-							}
-						});
+			$("#template-wishes").validate({
+				rules: {
+					name: {
+						required: true
+					},
+					message: {
+						required: true
 					}
-				});
-
+				},
+				submitHandler: function (e) {
+					$('#response').html('');
+					var button = $('#btn_save');
+					var button_text = button.text();
+					button.prop("disabled", true);
+					button.addClass('disabled');
+					button.text('Sedang Memproses...');
+					$.ajax({
+						type: $("#template-wishes").attr('method'),
+						url: $("#template-wishes").attr('action'),
+						data: $("#template-wishes").serialize(),
+						success: function (data) {
+							try {
+								var res = $.parseJSON(data);
+								swal.fire({
+									position: "top-right",
+									icon: res.status,
+									title: res.message,
+									showConfirmButton: !1,
+									timer: 1500
+								});
+								location.reload();
+							} catch (err) {
+								$('#response').fadeIn('slow').html(data);
+							}
+							button.prop("disabled", false);
+							button.removeClass('disabled');
+							button.text(button_text);
+							//FormCustom.init();
+						}
+					})
+					return false
+				}
 			});
 		},
 
